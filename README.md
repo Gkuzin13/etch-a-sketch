@@ -1,1 +1,1 @@
-# Gkuzin13.github.io-etch-a-sketch
+etch a sketch Odin Project

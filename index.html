@@ -7,21 +7,21 @@
   <title>Etch-a-Sketch</title>
   <meta name="Draw!" content="Etch-a-Sketch">
   <meta name="Georgy" content="Odin Project">
-  <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@300;500;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@300;400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 
 </head>
 
 <body>
   <div class="header"></div>
-  <div id="squares-ctn"></div>
-
-    <div class="options-ctn">
-      <button class="btn-style" id="grid-size-btn">Grid Size</button>
-      <button class="btn-style" id="reset-btn">Reset</button>
-      <button class="btn-style-mono" id="mono-color-btn">B&W<img class="btn-img" src="/img/mono.png"></button>
-      <button class="btn-style-rainbow" id="random-color-btn">Random<img class="btn-img" src="/img/color.png"></button>
-    </div>
+  
+    <div id="squares-ctn"></div>
+      <div class="options-ctn">
+        <button type="button" class="btn-style" id="grid-size-btn">Grid Size</button>
+        <button type="button" class="btn-style" id="reset-btn">Reset Grid</button>
+        <button type="button" class="btn-style-mono" id="mono-color-btn">B&W<img src="img/mono.png"></button>
+        <button type="button" class="btn-style-rainbow" id="random-color-btn">Random<img src="img/color.png"></button>
+      </div>
 
 </body>
 <script src="main.js"></script>
